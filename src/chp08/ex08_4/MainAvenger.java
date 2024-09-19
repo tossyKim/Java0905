@@ -1,4 +1,4 @@
-package ex08_4;
+package chp08.ex08_4;
 
 public class MainAvenger {
 

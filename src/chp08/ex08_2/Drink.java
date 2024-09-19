@@ -1,4 +1,4 @@
-package ex08_2;
+package chp08.ex08_2;
 
 public class Drink {
     private String name;

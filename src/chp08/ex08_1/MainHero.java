@@ -1,4 +1,4 @@
-package ex08_1;
+package chp08.ex08_1;
 
 public class MainHero {
 
