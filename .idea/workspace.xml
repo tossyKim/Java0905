@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="챕터8">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex08_5/MainStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex08_6/MainMyMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex08_6/MyMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex08_8/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex08_8/MainAccount.java" afterDir="false" />
+    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="java 8장 실습 8-5~8">
+      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_num7/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_num7/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_num8/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_num8/MonsterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex08_09/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex08_09/CoffeeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex12/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex08_1/MainHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex08_1/MainHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex08_1/hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex08_1/hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex08_2/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex08_2/Drink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex08_2/MainDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex08_2/MainDrink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex08_4/Avenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex08_4/Avenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex08_4/MainAvenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex08_4/MainAvenger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +51,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountTest.executor": "Run",
     "Application.BicycleMain.executor": "Run",
+    "Application.CoffeeTest.executor": "Run",
     "Application.CylinderMain.executor": "Run",
     "Application.MainAccount.executor": "Run",
     "Application.MainAvenger.executor": "Run",
@@ -66,13 +61,15 @@
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
     "Application.MainMyMath.executor": "Run",
+    "Application.MainRandom.executor": "Run",
     "Application.MainSquare.executor": "Run",
     "Application.MainStudent.executor": "Run",
+    "Application.MonsterTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JAVA_IDEA_PROJECT/java0905/src/chp08",
+    "last_opened_file_path": "D:/JAVA_IDEA_PROJECT/java0905/src/chp09",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,7 +108,8 @@
       <workItem from="1726101154568" duration="8242000" />
       <workItem from="1726116183747" duration="9000" />
       <workItem from="1726117759863" duration="17000" />
-      <workItem from="1726704486498" duration="8533000" />
+      <workItem from="1726704486498" duration="8633000" />
+      <workItem from="1727309267811" duration="8614000" />
     </task>
     <task id="LOCAL-00001" summary="Java 7장 연습문제 10번, 11번">
       <option name="closed" value="true" />
@@ -137,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726109523166</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java 8장 실습 8-5~8">
+      <option name="closed" value="true" />
+      <created>1726714058858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726714058858</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java 7장 연습문제 10번, 11번" />
     <MESSAGE value="챕터8" />
-    <option name="LAST_COMMIT_MESSAGE" value="챕터8" />
+    <MESSAGE value="java 8장 실습 8-5~8" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 8장 실습 8-5~8" />
   </component>
 </project>
