@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="java 8장 실습 8-5~8">
-      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_num7/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_num7/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_num8/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/chp08_num8/MonsterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex08_09/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex08_09/CoffeeTest.java" afterDir="false" />
+    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="java 8장, 9장 실습 9-3까지">
+      <change afterPath="$PROJECT_DIR$/src/chp09/ex9_3/MainRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp09/ex9_4/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Novice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/RPGGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Wizard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AccountTest.executor": "Run",
+    "Application.ArrayListTest.executor": "Run",
     "Application.BicycleMain.executor": "Run",
     "Application.CoffeeTest.executor": "Run",
     "Application.CylinderMain.executor": "Run",
@@ -65,6 +66,7 @@
     "Application.MainSquare.executor": "Run",
     "Application.MainStudent.executor": "Run",
     "Application.MonsterTest.executor": "Run",
+    "Application.RPGGameTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -81,6 +83,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA_IDEA_PROJECT\java0905\src\chp09" />
       <recent name="D:\JAVA_IDEA_PROJECT\java0905\src\chp08" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -109,7 +112,13 @@
       <workItem from="1726116183747" duration="9000" />
       <workItem from="1726117759863" duration="17000" />
       <workItem from="1726704486498" duration="8633000" />
-      <workItem from="1727309267811" duration="8614000" />
+      <workItem from="1727309267811" duration="8725000" />
+      <workItem from="1727318761037" duration="90000" />
+      <workItem from="1727320439229" duration="170000" />
+      <workItem from="1727320626070" duration="764000" />
+      <workItem from="1728519579393" duration="2395000" />
+      <workItem from="1728522009322" duration="9000" />
+      <workItem from="1728522288387" duration="4618000" />
     </task>
     <task id="LOCAL-00001" summary="Java 7장 연습문제 10번, 11번">
       <option name="closed" value="true" />
@@ -143,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726714058858</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="java 8장, 9장 실습 9-3까지">
+      <option name="closed" value="true" />
+      <created>1727318573493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727318573493</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +170,7 @@
     <MESSAGE value="Java 7장 연습문제 10번, 11번" />
     <MESSAGE value="챕터8" />
     <MESSAGE value="java 8장 실습 8-5~8" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 8장 실습 8-5~8" />
+    <MESSAGE value="java 8장, 9장 실습 9-3까지" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 8장, 9장 실습 9-3까지" />
   </component>
 </project>
