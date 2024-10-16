@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="java 8장, 9장 실습 9-3까지">
-      <change afterPath="$PROJECT_DIR$/src/chp09/ex9_3/MainRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp09/ex9_4/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Novice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/RPGGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Wizard.java" afterDir="false" />
+    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="java 10장 상속 1절 상속의 개요">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/JDBCConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java0905.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java0905.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +59,7 @@
     "Application.MainDog.executor": "Run",
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainJDBCTest.executor": "Run",
     "Application.MainMyMath.executor": "Run",
     "Application.MainRandom.executor": "Run",
     "Application.MainSquare.executor": "Run",
@@ -71,13 +70,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JAVA_IDEA_PROJECT/java0905/src/chp09",
+    "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/JAVA_IDEA_PROJECT/java0905/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -118,7 +120,9 @@
       <workItem from="1727320626070" duration="764000" />
       <workItem from="1728519579393" duration="2395000" />
       <workItem from="1728522009322" duration="9000" />
-      <workItem from="1728522288387" duration="4618000" />
+      <workItem from="1728522288387" duration="5102000" />
+      <workItem from="1728529222010" duration="7000" />
+      <workItem from="1729042175986" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="Java 7장 연습문제 10번, 11번">
       <option name="closed" value="true" />
@@ -160,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727318573493</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="java 10장 상속 1절 상속의 개요">
+      <option name="closed" value="true" />
+      <created>1728528468775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728528468775</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +183,7 @@
     <MESSAGE value="챕터8" />
     <MESSAGE value="java 8장 실습 8-5~8" />
     <MESSAGE value="java 8장, 9장 실습 9-3까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 8장, 9장 실습 9-3까지" />
+    <MESSAGE value="java 10장 상속 1절 상속의 개요" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 10장 상속 1절 상속의 개요" />
   </component>
 </project>
