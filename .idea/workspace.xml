@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="java 10장 상속 1절 상속의 개요">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/JDBCConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
+    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="JDBC Driver, Oracle DB와 연결하기">
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/ex10_4/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/ex10_4/MainShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/ex10_4/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/ex10_4/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/ex10_4/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java0905.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java0905.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,7 @@
     "Application.MainJDBCTest.executor": "Run",
     "Application.MainMyMath.executor": "Run",
     "Application.MainRandom.executor": "Run",
+    "Application.MainShape.executor": "Run",
     "Application.MainSquare.executor": "Run",
     "Application.MainStudent.executor": "Run",
     "Application.MonsterTest.executor": "Run",
@@ -122,7 +124,8 @@
       <workItem from="1728522009322" duration="9000" />
       <workItem from="1728522288387" duration="5102000" />
       <workItem from="1728529222010" duration="7000" />
-      <workItem from="1729042175986" duration="3942000" />
+      <workItem from="1729042175986" duration="4362000" />
+      <workItem from="1729123605284" duration="1889000" />
     </task>
     <task id="LOCAL-00001" summary="Java 7장 연습문제 10번, 11번">
       <option name="closed" value="true" />
@@ -172,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728528468775</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JDBC Driver, Oracle DB와 연결하기">
+      <option name="closed" value="true" />
+      <created>1729046244947</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729046244948</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +195,7 @@
     <MESSAGE value="java 8장 실습 8-5~8" />
     <MESSAGE value="java 8장, 9장 실습 9-3까지" />
     <MESSAGE value="java 10장 상속 1절 상속의 개요" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 10장 상속 1절 상속의 개요" />
+    <MESSAGE value="JDBC Driver, Oracle DB와 연결하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC Driver, Oracle DB와 연결하기" />
   </component>
 </project>
