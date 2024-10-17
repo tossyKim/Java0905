@@ -1,4 +1,5 @@
 package chp10.ex10_1.ex10_4;
+import java.util.ArrayList;
 
 public class MainShape {
     public static void main(String[] args) {
@@ -11,11 +12,14 @@ public class MainShape {
 
 //        Shape s1 = new Shape();
 
-        Shape[] shapes = {s, t, c};
+//        Shape[] shapes = {s, t, c};
 
-        for (int i = 0; i < shapes.length; i++) {
-            System.out.printf("인덱스 번호 %d번의 도형 이름 : %s \n",i,shapes[i].name);
+        ArrayList<Shape> shapes = new ArrayList<Shape>();
+        shapes.add(s);
+        shapes.add(t);
+        shapes.add(c);
+        for (int i = 0; i < shapes.size(); i++) {
+            System.out.printf("인덱스 번호 %d번의 도형 이름 : %s \n",i,shapes.get(i).name);
         }
-
     }
 }
