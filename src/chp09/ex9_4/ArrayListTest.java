@@ -10,6 +10,9 @@ public class ArrayListTest {
         names.add("Park");
         names.add("Lee");
         names.add("Jung");
+        String[] name = {"1","2","3"};
+
+//        names.add(name);
 
 //        Element 변경(설정)
         names.set(1,"cha");

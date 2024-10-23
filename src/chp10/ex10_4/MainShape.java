@@ -1,4 +1,4 @@
-package chp10.ex10_1.ex10_4;
+package chp10.ex10_4;
 import java.util.ArrayList;
 
 public class MainShape {
