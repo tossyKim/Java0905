@@ -55,6 +55,4 @@ public class Customer {
     public void setReward(int reward) {
         this.reward = reward;
     }
-
-
 }

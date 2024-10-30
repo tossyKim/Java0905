@@ -10,7 +10,7 @@ public class CustomerView {
         System.out.printf("- 나이: %d\n",customer.getAge());
         System.out.printf("- 등급: %s\n",customer.getLevel());
         System.out.printf("- 직업: %s\n",customer.getJob());
-        System.out.printf("- 적립금: %d\n",customer.getReward());
+        System.out.printf("- 적립금: %d\n\n",customer.getReward());
     }
 
     public void printHead(){
