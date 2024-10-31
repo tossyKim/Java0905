@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="JDBC MVC모델링에 따라 분류">
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainContriller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/entitiy/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
+    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="JDBC Programming &amp; MVC모델링에 따라 분류 2">
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_5/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_5/MainArcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_5/MasterAcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_7/AAA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_7/BBB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_7/MainConstrictor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_8/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_8/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_8/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc2/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc2/controller/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc2/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc2/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc2/view/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc2/view/CustomerView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +66,11 @@
     "Application.CylinderMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainAccount.executor": "Run",
+    "Application.MainArcher.executor": "Run",
     "Application.MainAvenger.executor": "Run",
+    "Application.MainConstrictor.executor": "Run",
     "Application.MainContriller.executor": "Run",
+    "Application.MainController.executor": "Run",
     "Application.MainDog.executor": "Run",
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
@@ -131,7 +142,8 @@
       <workItem from="1729123605284" duration="2821000" />
       <workItem from="1729126569916" duration="8000" />
       <workItem from="1729642075619" duration="9723000" />
-      <workItem from="1730247883428" duration="8270000" />
+      <workItem from="1730247883428" duration="8302000" />
+      <workItem from="1730333629408" duration="8509000" />
     </task>
     <task id="LOCAL-00001" summary="Java 7장 연습문제 10번, 11번">
       <option name="closed" value="true" />
@@ -221,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729651882034</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="JDBC Programming &amp; MVC모델링에 따라 분류 2">
+      <option name="closed" value="true" />
+      <created>1730256247506</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730256247506</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +258,7 @@
     <MESSAGE value="업캐스팅: 실습 10-4(ArrayList)" />
     <MESSAGE value="업캐스팅: 범위제한 실습" />
     <MESSAGE value="JDBC MVC모델링에 따라 분류" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC MVC모델링에 따라 분류" />
+    <MESSAGE value="JDBC Programming &amp; MVC모델링에 따라 분류 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC Programming &amp; MVC모델링에 따라 분류 2" />
   </component>
 </project>
