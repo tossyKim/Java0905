@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="10장 상속, 메소드 오버라이딩, 생성자 호출순서와 실행순서, 추상 클래스 개념">
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_10/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_10/MainItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/Item2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/MainWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/Weaopn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/MainPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/pack1/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/pack2/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/MainAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/protected1/MainChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/protected1/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/protected1/test/Child.java" afterDir="false" />
+    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="10장 상속, 추상클래스, this, super, protected">
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/MinaVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex11_5/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_11_1/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_11_1/G24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_11_1/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_11_1/MainIphine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_11_1/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_11_1/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_11_4/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_11_4/FlyAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_11_4/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_11_4/MainFlyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp11/ex_11_4/Rocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,15 +77,19 @@
     "Application.MainController.executor": "Run",
     "Application.MainDog.executor": "Run",
     "Application.MainDrink.executor": "Run",
+    "Application.MainFlyable.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainIphine.executor": "Run",
     "Application.MainItem.executor": "Run",
     "Application.MainJDBCTest.executor": "Run",
     "Application.MainMyMath.executor": "Run",
+    "Application.MainPro.executor": "Run",
     "Application.MainRandom.executor": "Run",
     "Application.MainShape.executor": "Run",
     "Application.MainSquare.executor": "Run",
     "Application.MainStudent.executor": "Run",
     "Application.MainWeapon.executor": "Run",
+    "Application.MinaVehicle.executor": "Run",
     "Application.MonsterTest.executor": "Run",
     "Application.RPGGameTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -149,7 +154,9 @@
       <workItem from="1729642075619" duration="9723000" />
       <workItem from="1730247883428" duration="8302000" />
       <workItem from="1730333629408" duration="8553000" />
-      <workItem from="1730938274562" duration="8990000" />
+      <workItem from="1730938274562" duration="9223000" />
+      <workItem from="1730947637991" duration="21000" />
+      <workItem from="1731543014399" duration="8576000" />
     </task>
     <task id="LOCAL-00001" summary="Java 7장 연습문제 10번, 11번">
       <option name="closed" value="true" />
@@ -255,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730342537469</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="10장 상속, 추상클래스, this, super, protected">
+      <option name="closed" value="true" />
+      <created>1730947495891</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730947495891</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +300,7 @@
     <MESSAGE value="JDBC MVC모델링에 따라 분류" />
     <MESSAGE value="JDBC Programming &amp; MVC모델링에 따라 분류 2" />
     <MESSAGE value="10장 상속, 메소드 오버라이딩, 생성자 호출순서와 실행순서, 추상 클래스 개념" />
-    <option name="LAST_COMMIT_MESSAGE" value="10장 상속, 메소드 오버라이딩, 생성자 호출순서와 실행순서, 추상 클래스 개념" />
+    <MESSAGE value="10장 상속, 추상클래스, this, super, protected" />
+    <option name="LAST_COMMIT_MESSAGE" value="10장 상속, 추상클래스, this, super, protected" />
   </component>
 </project>
