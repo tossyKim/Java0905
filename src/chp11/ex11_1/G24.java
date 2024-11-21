@@ -1,10 +1,9 @@
-package chp11.ex_11_1;
+package chp11.ex11_1;
 
-public class IPhone implements Phone, Alarm, Message{
-
+public class G24 implements Phone, Alarm, Message{
     @Override
     public void playMusic(String MusicTitle) {
-        System.out.println(MusicTitle+"음악을" + PRODUCT_NAME + "Music으로 재생한다.");
+        System.out.println(MusicTitle+"음악을 재생한다.");
     }
 
     @Override
@@ -30,9 +29,5 @@ public class IPhone implements Phone, Alarm, Message{
     @Override
     public void receivePhone(String phoneNumber) {
         System.out.println(phoneNumber+"의 전화를 받는다.");
-    }
-
-    public void sendAriDrop(String content){
-        System.out.println("에어드롭으로 " + content + "를(을) 보낸다.");
     }
 }

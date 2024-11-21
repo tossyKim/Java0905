@@ -1,4 +1,4 @@
-package chp11.ex_11_4;
+package chp11.ex11_4;
 
 public class Rocket implements FlyAble
 {
