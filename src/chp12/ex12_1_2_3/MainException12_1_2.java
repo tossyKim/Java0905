@@ -1,4 +1,4 @@
-package chp12.ex12_1;
+package chp12.ex12_1_2_3;
 
 public class MainException12_1_2 {
     public static void main(String[] args) {
