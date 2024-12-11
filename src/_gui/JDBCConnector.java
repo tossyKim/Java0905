@@ -1,6 +1,7 @@
-package jdbc;
+package _gui;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class JDBCConnector {
@@ -28,5 +29,9 @@ public class JDBCConnector {
             }
 
         return con;
+    }
+
+    public static PreparedStatement prepareStatement(String sql) throws SQLException {
+        return getConnection().prepareStatement(sql);
     }
 }

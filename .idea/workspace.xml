@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="제품테이블 검색기능 추가">
-      <change afterPath="$PROJECT_DIR$/src/_gui/controller/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_gui/view/OrderInfoView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_10/MainBankAccountReader.java" afterDir="false" />
+    <list default="true" id="d80efde5-684b-4122-b864-bd9ead7a7b01" name="Changes" comment="주문검색프로그램 UI 작성">
+      <change afterPath="$PROJECT_DIR$/src/_gui/JDBCConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/entity/CustomerEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/entity/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/entity/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/repository/OrderRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_gui/controller/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_gui/controller/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_gui/view/OrderInfoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_gui/view/OrderInfoView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/JDBCConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/JDBCConnector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,67 +52,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AccountTest.executor": "Run",
-    "Application.ArrayListTest.executor": "Run",
-    "Application.BicycleMain.executor": "Run",
-    "Application.CoffeeTest.executor": "Run",
-    "Application.CylinderMain.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainAccount.executor": "Run",
-    "Application.MainAnimal.executor": "Run",
-    "Application.MainArcher.executor": "Run",
-    "Application.MainAvenger.executor": "Run",
-    "Application.MainBankAccount.executor": "Run",
-    "Application.MainBankAccountReader.executor": "Run",
-    "Application.MainChild.executor": "Run",
-    "Application.MainConstant.executor": "Run",
-    "Application.MainConstrictor.executor": "Run",
-    "Application.MainContriller.executor": "Run",
-    "Application.MainController.executor": "Run",
-    "Application.MainDog.executor": "Run",
-    "Application.MainDrink.executor": "Run",
-    "Application.MainException12_1.executor": "Run",
-    "Application.MainException12_3.executor": "Run",
-    "Application.MainFlyable.executor": "Run",
-    "Application.MainFrame.executor": "Run",
-    "Application.MainGameSimulation.executor": "Run",
-    "Application.MainHero.executor": "Run",
-    "Application.MainInterrupted.executor": "Run",
-    "Application.MainIphine.executor": "Run",
-    "Application.MainItem.executor": "Run",
-    "Application.MainJDBCTest.executor": "Run",
-    "Application.MainMyAgeException.executor": "Run",
-    "Application.MainMyMath.executor": "Run",
-    "Application.MainNullPointer.executor": "Run",
-    "Application.MainPro.executor": "Run",
-    "Application.MainRandom.executor": "Run",
-    "Application.MainShape.executor": "Run",
-    "Application.MainSquare.executor": "Run",
-    "Application.MainStudent.executor": "Run",
-    "Application.MainThrows.executor": "Run",
-    "Application.MainWeapon.executor": "Run",
-    "Application.MinaVehicle.executor": "Run",
-    "Application.MonsterTest.executor": "Run",
-    "Application.RPGGameTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/JAVA_IDEA_PROJECT/java0905/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BicycleMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoffeeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CylinderMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAnimal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainArcher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAvenger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainBankAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainBankAccountReader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainChild.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainConstant.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainConstrictor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainContriller.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainDog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainDrink.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainException12_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainException12_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainFlyable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainFrame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainGameSimulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainHero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainInterrupted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainIphine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainItem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainJDBCTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainMyAgeException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainMyMath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainNullPointer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainPro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainRandom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainShape.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainSquare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainStudent.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainThrows.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainWeapon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinaVehicle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonsterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RPGGameTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/jdbc/ojdbc11.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/JAVA_IDEA_PROJECT/java0905/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JAVA_IDEA_PROJECT\java0905\src\chp09" />
@@ -117,6 +122,7 @@
       <recent name="chp08" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_gui" />
       <recent name="chp12.ex12_7" />
       <recent name="chp12.ex12_1" />
     </key>
@@ -164,7 +170,9 @@
       <workItem from="1732754389669" duration="6980000" />
       <workItem from="1732859830492" duration="2004000" />
       <workItem from="1732862089291" duration="1455000" />
-      <workItem from="1733357498332" duration="8503000" />
+      <workItem from="1733357498332" duration="10075000" />
+      <workItem from="1733875563593" duration="661000" />
+      <workItem from="1733876271310" duration="9017000" />
     </task>
     <task id="LOCAL-00001" summary="Java 7장 연습문제 10번, 11번">
       <option name="closed" value="true" />
@@ -310,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732863475441</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="주문검색프로그램 UI 작성">
+      <option name="closed" value="true" />
+      <created>1733367487026</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733367487026</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +361,8 @@
     <MESSAGE value="12장 예외발생 이유 및 처리방법 1번" />
     <MESSAGE value="12장 예외의 종류, throw, throws, 파일 입출력" />
     <MESSAGE value="제품테이블 검색기능 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="제품테이블 검색기능 추가" />
+    <MESSAGE value="주문검색프로그램 UI 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="주문검색프로그램 UI 작성" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
