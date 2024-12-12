@@ -1,6 +1,8 @@
 package _gui.repository;
 import _gui.entity.OrderEntity;
 import _gui.JDBCConnector;
+
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -29,10 +31,30 @@ public class OrderRepository {
             }
             rs.close();
 
-//            con.close();
         }catch (SQLException e) {
             System.out.println(e);
         }
         return orderList;
     }
+
+    public void insertOrderinfo(OrderEntity orderEntity){
+        String sql = "insert into 주문 values(?, ?, ?, ?, ?, ?)";
+        JDBCConnector con = new JDBCConnector();
+//        Connection con = JDBCConnector.getConnection();
+        try {
+            PreparedStatement pstmt = con.prepareStatement(sql);
+            pstmt.setString(1,orderEntity.getOrderNum());
+            pstmt.setString(2,orderEntity.getOrderCustomer());
+            pstmt.setString(3, orderEntity.getOrderProduct());
+            pstmt.setInt(4,orderEntity.getAmount());
+            pstmt.setString(5,orderEntity.getDestination());
+            pstmt.setTimestamp(6,orderEntity.getOrderDate());
+            pstmt.executeUpdate();
+
+        }catch(SQLException e){
+            System.out.println(e);
+        }
+    }
+
+
 }
